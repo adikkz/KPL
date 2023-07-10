@@ -1,0 +1,201 @@
+.body1{
+background-color: #ffffff;
+}
+.jihazlogo1{
+    width: 300px;
+    margin-top: -100px;
+    margin-left: -5px;
+}
+.middle{
+    justify-content: start;
+    display: flex;
+}
+.visitToJ{
+    margin-top: -100px;
+    margin-left: 65px;
+    width: 921px;
+    height: 625px;
+    border-radius: 10px;
+}
+.videoJ{
+    width: 921px;
+    height: 625px; 
+    border-radius: 10px; 
+}
+.goShopping{
+    background-color: rgb(255, 225, 0);
+    width: 450px;
+    height: 223px;
+    margin-top: -100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 20px;
+}
+.goShoppingText{
+    margin-top: 90px;
+}
+.goShoppingText a{
+   margin-left: 50px;
+   font-size: 2.3625rem;
+   color: black;
+}
+.gsSubDiv{
+    background-color: rgb(255, 225, 0);
+    width: 450px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid black;
+    height: 100px;
+    margin-top: 73px;
+}
+.subDivText{
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 1.0625rem;
+    color: black;
+}
+.clockIMG{
+    background-color: #ffffff;
+    margin-top: 80px;
+    margin-left: 95px;
+}
+.clockIMG img{
+    width: 260px;
+    height: 250px;
+}
+.photocards{
+    margin-left: 65px;
+    margin-top: 55px;
+    justify-content: start;
+    display: flex;
+}
+.photocard img{
+    width: 686px;
+    height: 686px;
+    border-radius: 10px;
+}
+.photocard1 img{
+    width: 686px;
+    height: 573px;
+    border-radius: 10px;
+}
+.photocardBig img{
+    width: 1397px;
+    height: 573px;
+    border-radius: 10px;
+}
+.photocardTexts{
+    margin-top: -80px;
+    color: white;
+    margin-left: 20px;
+}
+.photocardTextsJ{
+    margin-top: -80px;
+    color: white;
+    margin-left: 25px;
+}
+.photocardTexts{
+    margin-top: -80px;
+    color: white;
+    margin-left: 20px;
+}
+.photocardTexts2{
+    margin-top: -80px;
+    color: white;
+    margin-left: 45px;
+}
+.photocardTextsBig{
+    margin-top: -80px;
+    color: white;
+    margin-left: 85px;
+}
+.photocardText1{
+    color: white;
+}
+.photocardText2{
+    margin-top: -25px;
+    font-size: 2.25rem;
+    color: white;
+}
+.wOfInsp{
+    font-size: 1.5625rem;
+    justify-content: center;
+    display: flex;
+}
+.logoBottom{
+    width: 153px;
+}
+.logoBottomDiv{
+    justify-content: center;
+    display: flex;
+}
+.bottomIMG{
+    margin-top: 50px;
+    margin-left: -140px;
+}
+.bottomBlueDiv{
+    background-color: #0058a3;
+    height: 250px;
+}
+.textLine{
+    justify-content: space-between;
+    display: flex;
+    font-size: 1.7625rem;
+    color: white;
+    width: 1100px;
+    margin-left: 175px;
+}
+.textLine a{
+    margin-top: 75px;
+    color: white;
+}
+.textLine p{
+    margin-top: 75px;
+    color: white;
+}
+.bottomTexts{
+    justify-content: space-around;
+    display: flex;
+    width: 1575px;
+    margin-left: -60px;
+    margin-top: 65px;
+    font-size: 1.0625rem;
+}
+.textsBottom{
+    color: white;
+}
+.bottomTextsLeft{
+    display: flex;
+    width: 400px;
+}
+.bottomTextsLeft a{
+    color: white;
+}
+.textsBottomCenter{
+    color: #e4e2df;
+    margin-left: 35px;
+}
+.bottomTextsRight{
+    margin-left: 250px;
+}
+.bottomTextsRight a{
+    color: white;
+}
+.symbol2{
+    color: rgb(209, 209, 255);
+    margin-left: 25px;
+}
+.btn1{
+    margin-top: -35px;
+    position: absolute;
+    margin-left: 600px;
+}
+.btn2{
+    margin-top: -85px;
+    position: absolute;
+    margin-left: 620px;
+}
+.b1{
+width: 30px;
+height: 30px;
+}
