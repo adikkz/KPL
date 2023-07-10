@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="projectCSS\ww.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FC Turan</title>
+        <link rel="shortcut icon" href="projectIMG\turan.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <button id="fadeinn">fadeIn</button>
+        <button id="showw">show</button>
+        <button id="fadetto">fadeTo</button>
+        <button id="animatee">animate</button>
+        <div class="ad">
+            <img src="https://assets.mymediads.com/uploads/logo/logo/2833/origin_7efc08cd9875e40f.png">
+            <button id="hidingAd">x</button>
+            
+        </div>
+        <div class="ad2">ewf</div>
+        <script>
+            $("#hidingAd").click(function(){
+                $(".ad").hide();
+            });
+            $("#showw").click(function(){
+                $(".ad").show();
+            });
+            $(".ad").mouseleave(function(){
+                $(".ad").fadeOut();
+            });
+            $("#fadeinn").click(function(){
+                $(".ad").fadeIn();
+            });
+            $("#fadetto").click(function(){
+                $(".ad").fadeTo("fast", 0.1);
+            });
+            $(".ad").click(function(){
+                $(".ad2").slideDown("slow");
+            });
+            $(".ad2").mouseleave(function(){
+                $(".ad2").slideUp("slow");
+            });
+            $("#animatee").click(function(){
+                $(".ad").animate({
+                    width: "300px",
+                    marginLeft: "25px",
+                    opacity: 0.5
+                }, 1500);
+                $(".ad").animate({
+                    width: "300px",
+                    opacity: 0.5,
+                    marginTop: "-200px"
+                }, 1500);
+                $(".ad").animate({
+                    width: "300px",
+                    opacity: 0.5,
+                    marginLeft: "500px"
+                }, 1500);
+                $("#hidingAd").animate({
+                    marginLeft: "622px"
+                }, 1500);
+            });
+        </script>
+        
+        <header>
+            <div class="icon">
+                <img src="projectIMG\turan.png">
+                <p>FC Turan</p>
+            </div>
+            <div class="soc">
+                <p>Follow us</p>
+                <a href="https://vk.com/fc_turan"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VK_Compact_Logo_%282021-present%29.svg/2048px-VK_Compact_Logo_%282021-present%29.svg.png" alt=""></a>
+                <a href="https://www.instagram.com/fc.turan/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt=""></a>
+            </div>
+            <div class="hright">
+                <a href="https://www.transfermarkt.world/fk-turan/startseite/verein/77711"><button class="btn btn-outline-warning">Transfermarkt</button></a>
+                <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B0%D0%BD_(%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1,_%D0%A2%D1%83%D1%80%D0%BA%D0%B5%D1%81%D1%82%D0%B0%D0%BD)"><button class="btn btn-outline-warning" >Wiki</button></a>
+                <a href="https://www.instagram.com/fc.turan/"><button class="btn btn-outline-warning">Shop</button></a>
+                <a href="#sq"><button class="btn btn-outline-warning">Squad</button></a>
+                <a href=""><button class="btn btn-warning">Tickets</button></a>
+            </div>
+        </header>
+        <hr style="border-color:darkturquoise; border-width: 5px; margin-top: 100px;"> 
+        <section class="news">
+            <img src="projectIMG\tlast.png" alt="">
+        </section>
+        <hr style="border-color: darkturquoise; border-width: 5px;">
+        <section class="next">
+            <div class="match">
+                <p>Next Match</p>
+                <table class="table">
+                    <tr>
+                        <th><img src="projectIMG\turan.png" alt=""></th>
+                        <th style="font-size:2vw ;">24.10</th>
+                        <th><img src="projectIMG\aktobe.png" alt=""></th>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <hr style="border-color: darkturquoise; border-width: 5px;">
+        <section class="squad">
+            <div>
+                <p id="sq">Squad</p>
+                <table class="table">
+                    <tr>
+                        <th class="table-warning">№</th>
+                        <th>Position</th>
+                        <th class="table-warning">Name</th>
+                        <th>Year Of Birth</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning"><img src="projectIMG\kz.png"></th>
+                        <th>Coach</th>
+                        <th class="table-warning"><img src="https://vesti.kz/userdata/sportsman/fc26e0086cec1b3ee747e784fa73a6ce.jpg"> Kuanysh Kabdulov</th>
+                        <th>1987</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">1 <img src="projectIMG\kz.png"></th>
+                        <th>Gk</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/678628-1656308923.png?lm=1"> Bekzhan Toqtarbai</th>
+                        <th>1997</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">24 <img src="projectIMG\kz.png"></th>
+                        <th>Gk</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/539555-1636216550.png?lm=1"> Dinmukhammed Zhomart</th>
+                        <th>2000</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">35 <img src="projectIMG\kg.png"></th>
+                        <th>Gk</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/749087-1656308883.png?lm=1"> Erzhan Tokotaev</th>
+                        <th>2000</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">2 <img src="projectIMG\kz.png"></th>
+                        <th>Df</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/481468-1656309060.png?lm=1"> Lev Skvorcov</th>
+                        <th>2000</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">5 <img src="projectIMG\kz.png"></th>
+                        <th>Df</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/262367-1656309088.png?lm=1"> Kasymzhan Taipov</th>
+                        <th>1995</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">6 <img src="projectIMG\uz.png"></th>
+                        <th>Df</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/939128-1656309147.png?lm=1"> Rafael Koroma</th>
+                        <th>2000</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">8 <img src="projectIMG\kz.png"></th>
+                        <th>Df</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/569668-1616688076.png?lm=1"> Ruslan Zhanysbaev</th>
+                        <th>1995</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">22 <img src="projectIMG\kz.png"></th>
+                        <th>Df</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/295770-1660140053.png?lm=1"> Timur Rudoselskiy</th>
+                        <th>1994</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">26 <img src="projectIMG\kz.png"></th>
+                        <th>Df</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/572645-1656308985.png?lm=1"> Olzhas Kerimzhanov</th>
+                        <th>1989</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">31 <img src="projectIMG\bl.png"></th>
+                        <th>Df</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/116881-1656309015.png?lm=1"> Andrei Zeleskiy</th>
+                        <th>1991</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">54 <img src="projectIMG\ch.png"></th>
+                        <th>Df</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/429793-1662313691.png?lm=1"> Zvonko Ceklich</th>
+                        <th>1999</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">99 <img src="projectIMG\kz.png"></th>
+                        <th>Df</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/579604-1660139978.png?lm=1"> Syrbai Maulen</th>
+                        <th>1999</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">4 <img src="projectIMG\kz.png"></th>
+                        <th>Mf</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/688049-1656309295.png?lm=1"> Sanzhar Satanov</th>
+                        <th>2001</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">7 <img src="projectIMG\kz.png"></th>
+                        <th>Mf</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/578688-1616688846.png?lm=1"> Bekzat Kabylan</th>
+                        <th>1996</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">11 <img src="projectIMG\kz.png"></th>
+                        <th>Mf</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/721355-1656309579.png?lm=1"> Asylzhan Abbas</th>
+                        <th>1999</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">13 <img src="projectIMG\kz.png"></th>
+                        <th>Mf</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/52223-1656309395.png?lm=1"> Azat Nurgaliev</th>
+                        <th>1986</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">15 <img src="projectIMG\bl.png"></th>
+                        <th>Mf</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/214116-1648137715.jpg?lm=1"> Oleg Evdokimov</th>
+                        <th>1994</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">16 <img src="projectIMG\kz.png"></th>
+                        <th>Mf</th>
+                        <th class="table-warning"><img src="projectIMG\unk.png"> Kuanysh Duysenbekuly</th>
+                        <th>2003</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">21 <img src="projectIMG\bl.png"></th>
+                        <th>Mf</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/214119-1620382818.png?lm=1"> Artem Gurenko</th>
+                        <th>1994</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">23 <img src="projectIMG\kz.png"></th>
+                        <th>Mf</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/648565-1616689156.png?lm=1"> Arman Nusip</th>
+                        <th>1994</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">25 <img src="projectIMG\sg.png"></th>
+                        <th>Mf</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/81826-1656309266.png?lm=1"> Abdullai Diakate</th>
+                        <th>1988</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">30 <img src="projectIMG\ru.png"></th>
+                        <th>Mf</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/187020-1585927965.png?lm=1"> Mikhail Bashilov</th>
+                        <th>1993</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">9 <img src="projectIMG\mk.png"></th>
+                        <th>Fw</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/66608-1656309447.png?lm=1"> Samir Fazli</th>
+                        <th>1991</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">10 <img src="projectIMG\kz.png"></th>
+                        <th>Fw</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/86694-1656309547.png?lm=1"> Tanat Nuserbaev</th>
+                        <th>1987</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">12 <img src="projectIMG\br.png"></th>
+                        <th>Fw</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/237058-1662313664.png?lm=1"> Jo Santos</th>
+                        <th>1991</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">17 <img src="projectIMG\kz.png"></th>
+                        <th>Fw</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/648975-1656309521.png?lm=1"> Shoqan Abzalov</th>
+                        <th>1993</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">19 <img src="projectIMG\kz.png"></th>
+                        <th>Fw</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/522138-1656309485.png?lm=1"> Aliar Mukhammed</th>
+                        <th>2001</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">57 <img src="projectIMG\kz.png"></th>
+                        <th>Fw</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/661169-1636216997.png?lm=1"> Alen Aimanov</th>
+                        <th>2002</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">90 <img src="projectIMG\ng.png"></th>
+                        <th>Fw</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/73951-1554849233.png?lm=1"> Kehinde Fatai</th>
+                        <th>1990</th>
+                    </tr>
+                    <tr>
+                        <th class="table-warning">97 <img src="projectIMG\kz.png"></th>
+                        <th>Fw</th>
+                        <th class="table-warning"><img src="https://img.a.transfermarkt.technology/portrait/header/580140-1618904946.png?lm=1"> Temirlan Amirov</th>
+                        <th>1997</th>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        
+    </body>
+</html>
