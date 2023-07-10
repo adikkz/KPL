@@ -1,0 +1,247 @@
+.divNextMatches{
+    background-color: #1c303f;
+    width: 100%;
+    height: 150%;
+}
+@media(max-width: 800px){
+    .divNextMatches{
+        height: 100%;
+        
+    }
+}
+.nextMatches{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    --text-header-font-size: 1.2rem;
+    --text-header-font-weight: bold;
+    --text-header-line-height: 1.33;
+    margin-left: 110px;
+    padding-top: 15px;
+}
+.NextMatchesBoxDiv{
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin-left: 110px;
+    margin-top: 35px;
+}
+@media(max-width:800px) {
+    .NextMatchesBoxDiv{
+    justify-content: center;
+    margin-left: 135px;
+    width: 30%;
+    flex-wrap: wrap;
+    }
+}
+.box{
+    background-color: #325a85;
+    width: 296px;
+    height: 146px;
+    padding: 2px 10px; 
+}
+@media(max-width:800px) {
+.box{
+    align-items: center;
+    margin-top: 15px;
+}
+}
+.topLine{
+    justify-content: space-between;
+    display: flex;
+    color: white;
+}
+.boxCenter{
+    width: 276px;
+    height: 84px;
+    background-color: #1c303f;
+    margin-top: 2px;
+}
+.VSteam{
+    justify-content: space-around;
+    display: flex;
+    height: 25px;
+    color: #325a85;
+}
+.VSclubBadges{
+    justify-content: space-around;
+    display: flex;
+    color: #325a85;
+}
+.VSclubBadges img{
+    width: 55px;
+    height: 55px;
+}
+.tableKPL{
+    background-color: #f3f3f3;
+    height: 135%;
+    margin-top: 105px; 
+}
+@media(max-width: 800px){
+    .tableKPL{
+        height: 90%;
+    }
+}
+.centerTables{
+    justify-content: space-evenly;
+    display: flex;
+}
+@media(max-width: 800px){
+    .centerTables{
+        justify-content: start;
+        display: block;
+    }
+}
+.topTexts{
+    color: #234181;
+}
+
+.leftTable{ 
+    width: 30%;
+    margin-top: 75px;
+}
+.tables{
+    background-color: #ffffff;
+}
+.top3{
+    background-color: #dbeff7;
+}
+.top3PTS{
+    background-color: #dbeff7;
+    color: #45abd6;
+}
+.clubtd{
+    background-color: #f3f3f3;
+}
+.wins{
+    background-color: #f3f3f3;
+}
+.loses{
+    background-color: #f3f3f3;
+}
+.table1{
+    width: 500px;
+}
+.rightTable{
+    width: 30%;
+    margin-top: 75px;
+}
+@media(max-width: 800px){
+    .rightTable{
+        margin-left: 21.5%;
+    }
+}
+.table2{
+    width: 500px;
+}
+.clubIMG{
+    width: 30px;
+    height: 30px;
+}
+.clubIMG2{
+    width: 25px;
+    height: 25px;
+}
+.playerIMG{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.name{
+    font-family: core_sans_regular, Arial, Helvetica, sans-serif;
+}
+.name1{
+    color: #fff;
+}
+.topScorer{
+    background-color: #53b9e1;
+}
+.topScorers{
+    background-color: #ffffff;
+}
+.tdText{
+    color: #53b9e1;
+}
+.tdText1{
+    color: #fff;
+}
+.amplua{
+    color: #568da3;
+}
+.amplua1{
+    color: #055372;
+}
+.allClubs{
+   
+    margin-top: 15px;
+}
+.cParticipants{
+    color: #234181;
+    font-family: 'Open Sans', Arial;
+    margin-left: 13.4%;
+    font-size: 25px;
+}
+.PFLK{
+    color: #c5cbcf;
+    font-size: 14px;
+    font-family: 'Open Sans', Arial;
+    background-color: #1c303f;
+    justify-content:flex-start;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.PFLK p{
+    margin-left: 13.4%;
+}
+@media(max-width: 800px){
+    .PFLK{
+        margin-top: 580%;
+    }
+}
+.clubBadges{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;
+    min-height: auto;
+    -webkit-box-pack: start;
+    justify-content: center;
+    text-align: left;
+    
+}
+.clubIMG1{
+    width: 107px;
+    height: 107px;
+}
+.col{
+    border: 1px solid #f3f3f3;
+    background-color: white;
+    align-items: center;
+}
+@media(height: 1024px){
+    .tableKPL{
+        height: 260%;
+    }
+}
+@media(height: 1024px){
+    .leftTable{
+        margin-left: 165px;
+    }
+}
+@media(height: 1024px){
+    .PFLK{
+        margin-top: 0%;
+    }
+}
+@media(height: 1024px){
+    .rightTable{
+        margin-left: 165px;
+        width: 55%;
+    }
+}
+@media(height: 1024px){
+    .NextMatchesBoxDiv{
+        width: 78%;
+        margin-left: 80px;
+    }
+}
