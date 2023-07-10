@@ -1,0 +1,123 @@
+.icon p{
+    font-size: 3vw;
+    min-height: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(247, 194, 60);
+    float: left;
+    padding-top: 40px;
+    margin-right: 50px;
+}
+.icon img{
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 10vw;
+    min-width: 100px;
+    float: left;
+    padding-right: 20px;
+}
+header .hright{
+    float: right;
+    margin-right: 80px;
+}
+header hr{
+    padding-top: 50px;
+    border-color: rgb(247, 194, 60);
+    border-width: 5px;
+}
+header button{
+    max-width: 150px;
+}
+.soc p{
+    padding-top: 30px;
+    font-size: 2vw;
+    min-width: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(247, 194, 60);
+}
+.soc img{
+    width: 4%;
+}
+.news{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-right: 170px;
+    padding-left: 150px;
+}
+.news img{
+    width: 60vw;
+    height: 50%;
+}
+.next{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.next h1{
+    color: rgb(247, 194, 60);
+}
+.squad table{
+    width: 100%;
+    height: 10vw;
+    border-radius: 3px;
+    border: 5px;
+}
+.next p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(247, 194, 60);
+    text-align: center;
+    font-size: 3vw;
+}
+.match img{
+    width:8vw;
+}
+hr{
+    border-color: green; 
+    border-width: 5px;
+}
+.squad p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(247, 194, 60);
+    text-align: center;
+    font-size: 3vw;
+}
+.squad img{
+    width: 3vw;
+}
+.ad{
+    width: 1071px;
+    background-color: rgb(0, 123, 231);
+    position: fixed;
+    top: 595px;
+    margin-left: 215px;
+}
+#hidingAd{
+    position: fixed;
+    top: 595px;
+    margin-left: 402px;
+}
+#fadeinn{
+    position: fixed;
+    top: 595px;
+}
+#showw{
+    position: fixed;
+    top: 635px;
+}
+#fadetto{
+    position: fixed;
+    top: 675px;
+}
+.ad2{
+    display: none;
+    position: fixed;
+    top: 675px;
+    right: 100px;
+    background-color: blueviolet;
+    height: 70px;
+    width: 200px;
+}
+#animatee{
+    position: fixed;
+    top: 715px;
+}

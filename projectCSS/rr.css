@@ -1,0 +1,86 @@
+.icon p{
+    font-size: 3vw;
+    min-height: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color:green;
+    float: left;
+    padding-top: 40px;
+    margin-right: 50px;
+}
+.icon img{
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 10vw;
+    min-width: 100px;
+    float: left;
+    padding-right: 20px;
+}
+header .hright{
+    float: right;
+    margin-right: 80px;
+}
+header hr{
+    padding-top: 50px;
+    border-color: green;
+    border-width: 5px;
+}
+header button{
+    max-width: 150px;
+}
+.soc p{
+    padding-top: 30px;
+    font-size: 2vw;
+    min-width: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    color:green;
+}
+.soc img{
+    width: 4%;
+}
+.news{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-right: 170px;
+    padding-left: 150px;
+}
+.news img{
+    width: 60vw;
+    height: 50%;
+}
+.next{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.next h1{
+    color: green;
+}
+.squad table{
+    width: 100%;
+    height: 10vw;
+    border-radius: 3px;
+    border: 5px;
+}
+.next p{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    text-align: center;
+    font-size: 3vw;
+}
+.match img{
+    width:8vw;
+}
+hr{
+    border-color: green; 
+    border-width: 5px;
+}
+.squad p{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    text-align: center;
+    font-size: 3vw;
+}
+.squad img{
+    width: 3vw;
+}
